@@ -1,0 +1,179 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    padding:10px  37px;
+    line-height: 40px;
+   
+    
+}
+
+.navbar ul{
+    list-style: none;
+    text-align: center;
+}
+.navbar p{
+    font-size: 34px;
+    text-transform: capitalize;  
+    letter-spacing: 1.05px;
+    float: left;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding-left:20px ;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+.navbar ul li a:hover{
+    color:rgb(67, 252, 252);
+}
+.navbar span{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+.navbar span li{
+    padding-right: 10px;
+}
+.navbar span label{
+    background-color: rgb(220, 21, 21);
+    border: 1px solid;
+    padding-top: 10px;
+}
+.main{
+    width: 100%;
+    height: 500px;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.pera{
+    width: 50%;
+   margin: 0px auto;
+   padding-top:180px ;
+}
+.pera h3{
+    font-size:40px ;
+    text-transform: capitalize;
+}
+.pera h3 span{
+    color: red;
+}
+.pera p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+.pera button{
+    margin-top: 10px;
+    padding:5px 20px;
+    font-size: 24px;
+    background-color: none;
+}
+.customer h3{
+    margin: 20px;
+    font-size:34px ;
+    text-transform: capitalize;
+    text-align: center;
+}
+.customer h3 span{
+    background-color:orange;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+.john{
+    margin-top: 50px;
+}
+.deo{
+ width: 80%;
+ margin: 0px auto;
+ text-align: center;
+ border: 1px solid;
+ padding: 40px 20px;
+}
+/* .deo:hover{
+   
+} */
+.deo  img{
+    width: 100px;
+    border-radius: 50px;
+}
+.deo h2{
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.our{
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: center;
+}
+.card{
+    margin-top: 40px;
+    width: 100%;
+}
+.our span{
+    width: 80%;
+    background-color: orange;
+    padding:3px 5px ;
+    border-radius: 10px;
+   
+}
+.row{
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:0px auto;
+}
+.col{
+   width: 30%;
+   
+}
+.col img{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.col h3{
+    text-align: end;
+}
+.col h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.col button{
+  padding:5px 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.lon{
+    margin-top: 40px;background-color: #bbb;
+    
+}
+.n{
+
+   width: 80%;
+   margin: 0px auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.m ul{
+    list-style: none;
+}
+.m{
+    width: 30%;
+    line-height: 30px;
+}
+.m p{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
